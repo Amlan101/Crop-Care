@@ -1,5 +1,6 @@
 package com.example.cropcare
 
+
 import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
@@ -27,7 +28,7 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        etUserMobileNumber =findViewById(R.id.edt_number)
+        etUserMobileNumber = findViewById(R.id.edt_number)
         etUserPassword = findViewById(R.id.edt_password)
         btnGuest = findViewById(R.id.btn_guest)
         btnLogIn = findViewById(R.id.btn_login)
